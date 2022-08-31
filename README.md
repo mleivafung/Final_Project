@@ -2,15 +2,19 @@
 Data Processing in Python - JEM207
 
 ### MOTIVATION
-
+This analysis is based on finding common characteristics among the most profitable films of all time, in order to obtain insights to consider. The purpose is not to extrapolate information in order to determine the revenue that a movie can collect, but rather to take into account what these movies share, so that movie studios can be more willing to produce some before others and also issues related to their release. 
 
 ### BUILD STATUS
-- [ ] Test data availability
-- [ ] Get database
-- [ ] Get additional data from API
-- [ ] Define functions in .py files
-- [ ] Transform data
-- [ ] Generate search engine
+- [X] Test data availability
+- [ ] Hide API key
+- [X] Get additional data from API
+- [X] Get database
+- [X] Define functions files
+- [X] Transform data
+- [X] Generate search filter
+
+### ANALYSIS FILE
+The file Data_Analysis.ipynb contains the corresponding analysis. It requires the other files to be able to run properly, as functions and class have been defined in different files. 
 
 ### SOURCES
 #### DATABASE : _Box Office Mojo by IMDbPro_ 
