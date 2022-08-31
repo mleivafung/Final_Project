@@ -13,8 +13,27 @@ This analysis is based on finding common characteristics among the most profitab
 - [X] Transform data
 - [X] Generate search filter
 
+Note: API key should be managed as .env but was set in a .py instead.
+
 ### ANALYSIS FILE
 The file Data_Analysis.ipynb contains the corresponding analysis. It requires the other files to be able to run properly, as functions and class have been defined in different files. 
+
+### REQUIREMENTS
+Some of the packages used for this project were the following:
+- pandas.io.html
+- pandas
+- requests
+- json
+- re
+- datetime
+- numpy
+- ipywidgets
+- IPython.display
+- IPython.core.display
+- matplotlib.pyplot
+- plotly.express
+- seaborn
+- warnings
 
 ### SOURCES
 #### DATABASE : _Box Office Mojo by IMDbPro_ 
